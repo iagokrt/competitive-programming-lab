@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "lab": "node lab.js",
+    "lab:run": "node lab.js --run",
+    "lab:test": "node lab.js --test",
+    "cpp:run": "node lab.js --cpp --run",
+    "cpp:test": "node lab.js --cpp --test",
+    "test": "mocha \"beecrowd/**/*.test.js\""
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^12.0.1"
+  }
+}
